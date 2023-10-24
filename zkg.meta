@@ -1,14 +1,14 @@
 [package]
 script_dir = scripts
 test_command = cd testing && btest -c btest.cfg
-summary = TODO: A summary of dce rpc dir in one line
+summary = adds RID only to SameOpenGroup
 description = TODO: A more detailed description of dce rpc dir.
 	It can span multiple lines, with this indentation.
 depends = 
 	zeek >=4.0.0
 
 [template]
-source = https://github.com/zeek/package-template
+source = https://github.com/naorbarlev/dce_rpc_rid
 version = v3.0.2
 zkg_version = 2.14.0
 
