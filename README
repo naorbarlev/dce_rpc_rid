@@ -1,4 +1,3 @@
-dce rpc dir
-=================================
+# dce rpc dir
 
-TODO: tell people what your package does!
+TODO: adds RID only to SamrOpenGroup
