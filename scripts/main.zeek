@@ -1,10 +1,12 @@
 module dce_rpc_rid;
 
-redef record DCE_RPC::Info += {
-	RID: count &optional &log;
-};
+export {
+	redef record DCE_RPC::Info += {
+		RID: count &optional &log;
+	};
 
-global currennt_stub: string;
+	global currennt_stub: string;
+}
 
 event dce_rpc_response(c: connection, fid: count, ctx_id: count, opnum: count,
     stub_len: count) &priority=0
